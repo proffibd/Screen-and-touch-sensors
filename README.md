@@ -9,3 +9,6 @@ For the TSC2007 setup is also simple. The touch screen itself should be plugged 
 <img width="173" alt="Screenshot 2023-04-12 085932" src="https://user-images.githubusercontent.com/123525432/231465104-8c2f3345-d49d-481d-85e9-d0088bcb56cb.png">
 
 Most touch screens use FPC controlers which mean the TSC2007 should be able to accomadate most any touch screen controler. The SDA and SCL ports found on the opposite side of the chip must be plugged intot the A4 and A5 pins respectivly. These are the SDA and SCL pins of the Arduino Uno and cannot be changed. Note that SDA and SCl pins are different depending on the type or Arduino. The SDA and SDL ports cna be changed in the libTouch/touch_settings.h. Finaly the Vin must be connnected to 5v and the GND must be connected to GND. The TSC2007 does come with small pins that can be sodered into the chip, however that is optional.
+
+Below is the link to a youtube video demonstrating the use of the code.
+https://youtube.com/shorts/8MBkjB9Tdxk
